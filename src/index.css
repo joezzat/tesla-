@@ -1,0 +1,48 @@
+
+:root{
+  --background:white;
+  --color:rgb(20, 20, 20);
+  --tds-color-ct-dotted-grid: #393c41;
+}
+
+[data-theme="dark"]{
+  --background:#202124;
+  --color:white;
+}
+
+
+
+
+
+*{
+  box-sizing: border-box;
+  font-family:"Rubik", sans-serif;
+  color: #393c41;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+@keyframes animateDown {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  
+  40% {
+    transform: translateY(5px);
+
+  }
+
+  60%{
+    transform: translateY(3px);
+  }
+}
