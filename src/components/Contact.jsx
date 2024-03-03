@@ -2,7 +2,6 @@ import React from 'react'
 import  '../App.css';
 import{ useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
 
@@ -34,7 +33,7 @@ const Contact = () => {
 
 
     <section className='contact'>
-        <Fade cascade damping={0.1}>
+     
         <form ref={form} onSubmit={sendEmail}>
 
                 <h1>       Contact Us  </h1>
@@ -51,7 +50,8 @@ const Contact = () => {
 
                 <input type="submit" value="" className='sub'/> 
         </form>
-        </Fade>
+     
+  
 
     </section>
   
