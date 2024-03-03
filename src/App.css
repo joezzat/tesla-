@@ -455,7 +455,7 @@ transition: all 1s ease;
 /*contact*/
 .contact{
 background-image: url('../src/images/About-Us-Power-Hero-Desktop-Global.avif');
-height: 100vh;
+height: 140vh;
 background-size: cover;
 background-position: center;
 }
